@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1716,9 +1716,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY6" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY7" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="VCC" device=""/>
 <part name="SUPPLY8" library="supply" library_urn="urn:adsk.eagle:library:10485988" deviceset="GND" device=""/>
-<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2"/>
-<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2"/>
-<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2"/>
+<part name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF"/>
+<part name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF"/>
+<part name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF"/>
 <part name="!BO" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="" package3d_urn="urn:adsk.eagle:package:14150085/3"/>
 <part name="!BI" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="" package3d_urn="urn:adsk.eagle:package:14150085/3"/>
 <part name="CLR" library="con-headers" library_urn="urn:adsk.eagle:library:5539071" deviceset="CAST-01X1" device="" package3d_urn="urn:adsk.eagle:package:14150085/3"/>

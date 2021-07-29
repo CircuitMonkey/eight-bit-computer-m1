@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -116,7 +116,7 @@
 <layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
@@ -2252,6 +2252,17 @@ SCL
 <sheets>
 <sheet>
 <plain>
+<wire x1="78.74" y1="130.302" x2="82.042" y2="134.366" width="0.1524" layer="150"/>
+<wire x1="82.296" y1="130.302" x2="77.724" y2="134.112" width="0.1524" layer="150"/>
+<wire x1="33.782" y1="139.192" x2="34.798" y2="140.462" width="0.1524" layer="150"/>
+<wire x1="35.052" y1="139.192" x2="33.528" y2="140.208" width="0.1524" layer="150"/>
+<wire x1="35.814" y1="139.7" x2="30.734" y2="124.714" width="0.1524" layer="150" curve="105.489677"/>
+<wire x1="30.734" y1="124.714" x2="31.242" y2="124.714" width="0.1524" layer="150"/>
+<wire x1="31.242" y1="124.714" x2="30.734" y2="123.952" width="0.1524" layer="150"/>
+<wire x1="30.734" y1="123.952" x2="29.972" y2="124.714" width="0.1524" layer="150"/>
+<wire x1="29.972" y1="124.714" x2="30.734" y2="124.714" width="0.1524" layer="150"/>
+<wire x1="85.852" y1="132.08" x2="154.178" y2="91.948" width="0.1524" layer="150" curve="-84.845694"/>
+<wire x1="154.178" y1="91.948" x2="139.7" y2="78.74" width="0.1524" layer="150" curve="-124.652475"/>
 </plain>
 <instances>
 <instance part="PROM" gate="G$1" x="114.3" y="139.7" smashed="yes">

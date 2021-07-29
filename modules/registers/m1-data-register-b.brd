@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -173,7 +173,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYmRlZGJl" projecturn="a.cGVyc29uYWw6dWUyYmRlZGJlIzIwMTgwNTA0MTMwNTkwMzU2" f3durn="urn:adsk.wipprod:dm.lineage:uDbQ5p3qSqyEDHMnQ7mxUg" pcbguid="346aff4d-818e-4a0b-b11b-54c2a49fb0d9" lastpulledtime="" lastsyncedchangeguid="932f959c-d487-765f-ce8f-c403921ecc4f"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYmRlZGJl" projecturn="a.cGVyc29uYWw6dWUyYmRlZGJlIzIwMTgwNTA0MTMwNTkwMzU2" f3durn="urn:adsk.wipprod:dm.lineage:uDbQ5p3qSqyEDHMnQ7mxUg" pcbguid="346aff4d-818e-4a0b-b11b-54c2a49fb0d9" lastpulledtime="" lastsyncedchangeguid="932f959c-d487-765f-ce8f-c403921ecc4f" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="" lastpushedtime="" linktopcb3d="%12"/>
 <plain>
 <wire x1="0" y1="28.5" x2="1.5" y2="30" width="0.01" layer="20"/>
 <wire x1="1.5" y1="30" x2="17" y2="30" width="0.01" layer="20"/>
@@ -822,15 +822,15 @@ Please make sure your boards conform to these design rules.
 <attribute name="NAME" x="35.9" y="24.293" size="1.27" layer="21" font="vector" ratio="15" rot="R270" align="bottom-center"/>
 <attribute name="VALUE" x="30.5" y="21.238" size="0.762" layer="21" rot="R180" align="center"/>
 </element>
-<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="" x="26.362" y="4.521" smashed="yes" rot="R90">
+<element name="C1" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF" x="26.362" y="4.521" smashed="yes" rot="R90">
 <attribute name="NAME" x="26.419" y="6.199" size="0.8128" layer="125" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="26.362" y="4.521" size="0.2" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="" x="23.96" y="20.4" smashed="yes" rot="R90">
+<element name="C2" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF" x="23.96" y="20.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.96" y="21.9" size="0.8128" layer="125" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="23.96" y="20.4" size="0.2" layer="27" rot="R90" align="center"/>
 </element>
-<element name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="" x="36.96" y="20.9" smashed="yes" rot="R90">
+<element name="C3" library="rlc" library_urn="urn:adsk.eagle:library:4192893" package="0603-CAP" package3d_urn="urn:adsk.eagle:package:4193021/2" value="0.1uF" x="36.96" y="20.9" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.06" y="20.7" size="0.8128" layer="125" font="vector" ratio="15" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="36.96" y="20.9" size="0.2" layer="27" rot="R90" align="center"/>
 </element>

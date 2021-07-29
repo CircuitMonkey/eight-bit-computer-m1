@@ -2660,6 +2660,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="92.964" y1="53.848" x2="94.996" y2="53.848" width="0.1524" layer="150"/>
 <wire x1="94.996" y1="53.848" x2="93.98" y2="52.578" width="0.1524" layer="150"/>
 <wire x1="93.98" y1="52.578" x2="92.964" y2="53.848" width="0.1524" layer="150"/>
+<text x="30.48" y="106.68" size="3.81" layer="150">Add mode switch</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
